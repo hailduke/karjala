@@ -11,222 +11,126 @@ shape: parallelogram
 home: /mainpage.html {
   shape: class
 }
-# Документы
+# Карелия (Karjala)
 documents: https://svenska.yle.fi/a/7-10050799 {
   shape: class
   target: _iframe
 }
-# установочные
-ustav: /docs?ustav {
-  shape: class
-  parent: documents
+
 }
-# Исторические
-hist_docs: /docs?history {
-  shape: class
-  parent: documents
-}
-# проект SSS
-project_sss: https://docs.google.com/document/d/e/2PACX-1vTBkK5K_GN6OxEfMkaMKDTg9m-J13rZHjmcm7im5tYeyDetpAIaDlM8FxzEUB3OWZuboQ3Oh1RQ-Gwz/pub {
-  shape: class
-  parent: documents
-  target: _iframe
-}
-# Цель движения
+# Народы Карелии
 goals: https://docs.google.com/document/d/1t8m_JyzX8gjbG12g0GY1UBujENMWjMres3SxaIy8xyI {
   shape: class
   target: _iframe
 }
-# задачи
+
+# карелы
 peritocrats: https://docs.google.com/document/d/14jtSgrSbyIDbAoWarYpDQEZPuSTxaghK0kswPgD0ggU {
   shape: class
   parent: goals
   target: _iframe
 }
-# программа
+# вепсы
 present: https://docs.google.com/document/d/1Kh8kxnHWF1O7TgDuamZvW4aCEkRpb0uJb-o4j89HgOc {
   shape: class
   parent: goals
   target: _iframe
 }
-# Выступления
+# поморы 
 project: https://docs.google.com/document/d/1yUR7BXOFM6zKxTAk48VTckrirwIaK0NcVxNCb2zBB2g {
   shape: class
   parent: goals
   target: _iframe
 }
-# Структура республики
+# финны
+project: https://docs.google.com/document/d/1yUR7BXOFM6zKxTAk48VTckrirwIaK0NcVxNCb2zBB2g {
+  shape: class
+  parent: goals
+  target: _iframe
+}
+# саамы 
+project: https://docs.google.com/document/d/1yUR7BXOFM6zKxTAk48VTckrirwIaK0NcVxNCb2zBB2g {
+  shape: class
+  parent: goals
+  target: _iframe
+}
+
+# Путь борьбы 
 struct: /# {
   shape: class
 }
-# меритократия
+# Кижское восстание 
 peritocrats: /struct?ustav {
   shape: class
   parent: struct
 }
-# представительство народов
+# Карельское восстание
 present: /struct/pres {
   shape: class
   parent: struct
 }
-# проект правового парламентаризма
+# Боевая Группа NORD
 project: /struct/project {
   shape: class
   parent: struct
 }
-# История
+
+# Пантеон Героев
 history: https://docs.google.com/document/d/1Yc1KYkefa2zuGIS9B1ycgjCMdz2h3zEEFwdw6BR9YGI {
   shape: class
   target: _iframe
 }
-# Маннергейм
+# Иван Рокаччу
 manner: /history?ustav {
   shape: class
   parent: history
 }
-# представительство Карелии в Лиге Наций
+# Василий Левонен 
 liga: /history/pres {
   shape: class
   parent: history
 }
-# Ухтинская республика
+# Ялмари Таккинен 
 uhta: /history/project {
   shape: class
   parent: history
 }
-# ГУЛАГ
+# Пааво Талвела 
 gulag: /history/project {
   shape: class
   parent: history
 }
-# Армия
+
+# Карельское Национальное Движение 
 army: /# {
   shape: class
 }
-# Карельський батальон
+# Цели и Задачи
 karbat: /army?ustav {
   shape: class
   parent: army
 }
-# Карельское повстанческое движение
+# Программа
 povstan: /army?ustav {
   shape: class
   parent: army
 }
-# Народы Карелии
+# Деятельность
 nations: /# {
   shape: class
 }
-# карелы
+# Финно-угорское единство – SSS. 
 karels: https://docs.google.com/document/d/e/2PACX-1vTBkK5K_GN6OxEfMkaMKDTg9m-J13rZHjmcm7im5tYeyDetpAIaDlM8FxzEUB3OWZuboQ3Oh1RQ-Gwz/pub {
   shape: class
   parent: nations
   target: _iframe
 }
-# вепсы
+# Обратная связь
 vepsy: /nations?ustav {
   shape: class
   parent: nations
 }
-# ингерманландцы
-ingerm: /nations?ustav {
-  shape: class
-  parent: nations
-}
-# помори и кольские норвежцы
-pomors: /nations?ustav {
-  shape: class
-  parent: nations
-}
-# саамы
-saamy: /nations?ustav {
-  shape: class
-  parent: nations
-}
-# репрессированные
-victims: /nations?ustav {
-  shape: class
-  parent: nations
-}
-# Экология
-ecology: /nations?ustav {
-  shape: class
-}
-# Культура
-cultura: /nations?ustav {
-  shape: class
-}
-# Калевала
-kalevala: https://docs.google.com/document/d/e/2PACX-1vQKoODBt7FwWH3cbHJACX6autIP6YHMGtLg8TeE5LvNTBldzdtSZQh1B5_-Bdpc9tebx-u3Lb_g3Sz4/pub {
-  shape: class
-  parent: cultura
-  target: _iframe
-}
-# API Rest Docs
-apiDocs:  {
-  shape: class
-}
-# Swagger
-swagger: /swagger.io {
-  shape: class
-  target: _blank
-  parent: apiDocs
-}
-# Source of project
-source:/src/ {
-  shape: class
-  parent: apiDocs
-}
-# API routers json
-jsonRoutes:/apis?json {
-  shape: class
-  parent: apiDocs
-}
-# API routers diagram
-diagramRoutes: /apis?diagram {
-  shape: class
-  parent: apiDocs
-}
-# DB diagram
-diagramDB: /diagram/db {
-  shape: class
-  parent: apiDocs
-}
-# Tables
-tables: /# {
-  shape: class
-}
-# Reports
-views: /#{
-  shape: class
-}
 
 }
 
-catalog: {
-  shape: class
-
-}
-content: {
-  shape: class
-  AfterAuthURL: /table/leads/browse
-  Charset: UTF8
-  Language: en
-  SearchAction: /table/leads/get
-}
-FooterMenu: {
-  shape: parallelogram
-  # About us
-  about: {
-    shape: class
-    title: about us title
-  }
-  # User Agreement
-  reports:  {
-    shape: class
-    title: list of view
-  }
-
-}
-}
 		                  
